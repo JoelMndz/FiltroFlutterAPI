@@ -9,7 +9,7 @@ export const AeropuertoController = {
       await pool.close()
       return res.json(data.recordset)
     } catch (error) {
-      
+      console.log(error);      
     }
   },
 
@@ -20,7 +20,7 @@ export const AeropuertoController = {
       await pool.close()
       return res.json(data.recordset)
     } catch (error) {
-      
+      console.log(error);    
     }
   },
 }
